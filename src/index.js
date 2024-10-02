@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/index', (req, res) => {
-  res.contentType("text/javascript").send(`
+  res.send(`
     <html>
     <body>
     <a href="https://mysit.life"> 小应生活 </a>

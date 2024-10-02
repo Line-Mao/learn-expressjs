@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "NodeNext",
     "target": "ESNext",
+    "moduleResolution": "NodeNext",
     "noImplicitAny": true,
     "allowJs": true,
     "removeComments": true,
